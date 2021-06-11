@@ -1,0 +1,35 @@
+{
+  "name": "eris-tutorial-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "lint": "eslint src/**",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobUwU/eris-tutorial-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NobUwU/eris-tutorial-bot/issues"
+  },
+  "homepage": "https://github.com/NobUwU/eris-tutorial-bot#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "eris": "^0.15.1"
+  }
+}
